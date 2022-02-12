@@ -25,3 +25,28 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+npm install -g @angular/cli
+
+? Would you like to share anonymous usage data with the Angular Team at Google under
+Google’s Privacy Policy at https://policies.google.com/privacy? For more details and
+how to change this setting, see https://angular.io/analytics. Yes
+
+Thank you for sharing anonymous usage data. If you change your mind, the following  
+command will disable this feature entirely:
+
+    ng analytics off
+
+
+    ng --version
+    ng new hello-world      -(appname)
+    ng  serve               -(to run the server)
+
+    ng generate component components/header
+    ng add @fortawesome/angular-fontawesome@<version>
+    npm i json-server
+    npm install -g json-server
+    npm run server
+    json-server --watch db.json
